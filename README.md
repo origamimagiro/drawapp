@@ -17,3 +17,5 @@ Click on circles to select, or shift-click to toggle select.
 Move selected circles by dragging.
 
 Remove selected circles by pressing delete.
+
+Escape key deselects everything and enters select mode.
