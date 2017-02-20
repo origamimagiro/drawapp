@@ -72,12 +72,10 @@
     27: 'esc',
     32: 'pan',
     79: 'ellipse',
-    80: 'pen',
     86: 'select'
   };
 
   CURSORS = {
-    pen: 'crosshair',
     select: 'default',
     ellipse: 'crosshair',
     pan: 'move'

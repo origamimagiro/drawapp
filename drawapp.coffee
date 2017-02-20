@@ -27,12 +27,10 @@ KEYMAP = {
   27: 'esc'     # 'escape'
   32: 'pan'     # 'space'
   79: 'ellipse' # 'o'
-  80: 'pen'     # 'p'
   86: 'select'  # 'v'
 }
 
 CURSORS = {
-  pen:     'crosshair'
   select:  'default'
   ellipse: 'crosshair'
   pan:     'move'
