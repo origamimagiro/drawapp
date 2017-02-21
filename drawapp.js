@@ -306,7 +306,7 @@
   window.addEventListener('wheel', function(e) {
     var p;
     p = mouseToSVG(e, state.scale, state.viewBox);
-    state.scale = state.scale * (1 + e.deltaY / 100);
+    state.scale = state.scale * (1 + 0.02 * Math.sign(e.deltaY));
     state.viewBox = {
       x: p.x - e.x * state.scale,
       y: p.y - e.y * state.scale,
